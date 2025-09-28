@@ -1,0 +1,82 @@
+/* src/Components/Sidebar.css */
+.sidebar {
+  width: 270px;
+  background-color: #06668C;
+  color: #fff;
+  height: 100vh;
+  position: sticky;
+  top: 0; /* Hauteur du navbar */
+  left: 0; /* Caché par défaut */
+  bottom: 0;
+  transition: left 0.3s ease;
+  z-index: 1000;
+ overflow: hidden;
+  border-radius: 1rem;
+}
+.admin{
+ font-size: 4rem;
+ margin-left: 5rem;
+ margin-top: 3rem;
+}
+h3{
+  margin-top: 0.1rem;
+  margin-left: 1.9rem;
+  font-size: 2rem;
+}
+h5{
+  top: 0.1rem;
+  font-size: 15px;
+  margin-left: 2rem;
+  
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar-nav li {
+  padding: 20px 25px;
+  
+}
+.dash{
+  display: flex;
+  gap: 0.5rem;
+  color: #fff;
+  
+}
+.dash-icon{
+  margin-top: 0.1rem;
+  font-size: 1.5rem;
+}
+.main{
+  margin-top: 2rem;
+  height: 88%;
+  position: relative;
+  list-style: none;
+  padding: 0;
+}
+.main li {
+  
+  padding: 1rem;
+  margin: 8px 0;
+  border-radius: 8px;
+  transition: all 0.5s  ease-in-out;
+}
+.main li:hover {
+  background: #e0e0e058;
+}
+.main a{
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.main a span{
+  overflow: hidden;
+  color: #fff;
+  font-size: 1.3rem;
+  gap: 0.5rem;
+}

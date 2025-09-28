@@ -1,0 +1,29 @@
+/* src/styles/DefaultLayout.css */
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  display: flex;
+  flex: 1;
+  background-color: #f5f5f5;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  transition: margin-left 0.3s ease;
+}
+
+.main-content.sidebar-open {
+  margin-left: 250px; /* Largeur du sidebar */
+}
+
+/* Responsive : masquer le décalage quand sidebar fermé sur mobile */
+@media (max-width: 768px) {
+  .main-content.sidebar-open {
+    margin-left: 0;
+  }
+}
