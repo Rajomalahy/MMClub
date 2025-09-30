@@ -1,6 +1,7 @@
 import React from 'react'
 import {FaUserTie, FaBalanceScale, FaPlane,FaCalendarAlt ,FaPhotoVideo   } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+
 import '../styles/Sidebar.css'
 
 export default function Sidebar() {
