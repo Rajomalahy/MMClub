@@ -13,10 +13,10 @@ import Service from './components/page/Service'
 import DetailVoyage from './components/detailVoyage/DetailVoyage'
 
 const router = createBrowserRouter([
-  {
-    path: '/detailVoyage',
-    loader: () => redirect('/detailVoyage'),
-  },
+  // {
+  //   path: '/detailvoyage',
+  //   loader: () => redirect('/detailvoyage'),
+  // },
   {
     path:'/',
     element:<Index/>,
@@ -42,7 +42,7 @@ const router = createBrowserRouter([
         element:<About/>
       },
       {
-        path:'/detailVoyage',
+        path:'detailvoyage',
         element:<DetailVoyage/>
       }
     ]

@@ -37,7 +37,7 @@ export default function Voyages(){
                             className="rounded-lg"
                         >
                             <SwiperSlide>
-                                <Link to='/detailVoyage'>
+                                <a href='/detailvoyage'>
                                     <div className=" bg-[url(/voyage1.jpg)] bg-cover bg-center h-80 w-60 rounded-lg">
                                         <div className="p-4">
                                             <p className="text-white">Voyage à</p>
@@ -52,7 +52,7 @@ export default function Voyages(){
                                             </div>
                                         </div>
                                     </div>
-                                </Link>
+                                </a>
                             </SwiperSlide>
 
                             <SwiperSlide>

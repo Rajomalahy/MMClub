@@ -3,6 +3,7 @@ import Voyages from './Voyages'
 import Photo from './Photo'
 import Service from './Service'
 import About from './About'
+import DetailVoyage from '../detailVoyage/DetailVoyage'
 
 import footer1 from '../../assets/footer1.jpg'
 import footer2 from '../../assets/footer2.jpg'
@@ -12,6 +13,7 @@ import f from '../../assets/f.png'
 import g from '../../assets/g.png'
 import l from '../../assets/l.png'
 import t from '../../assets/t.png'
+
 
 export default function Index(){
     return(
@@ -36,7 +38,7 @@ export default function Index(){
             <main className="scroll-smooth">
 
                 <section id="acceuil">
-                    <Acceuil />
+                    <DetailVoyage />
                 </section>
 
                 <section id="voyages">
@@ -56,6 +58,7 @@ export default function Index(){
                 </section>
 
             </main>
+            {/* <DetailVoyage/> */}
             
             <footer className='bg-neutral-800 mt-10'>
 
